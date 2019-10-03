@@ -1,0 +1,12 @@
+import kotlin.math.nextUp
+
+fun main(args: Array<String>) {
+    val numbers: Array<Int> = arrayOf(12, 22, 43, 14, 25, 17, 9, 3, 55)
+    var sum :Int =0
+    for(i:Int in numbers){
+        if(i%2 == 0){
+           sum+=i
+        }
+    }
+    println("Сумма: " + sum)
+}
